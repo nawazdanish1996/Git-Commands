@@ -7,7 +7,7 @@ git add . (dot)
 git commit -m "initial commit"
 git status
 git remote add origin sshLink
-git push origin master
+git push origin master or, git push origin master --force
 
 */
 
