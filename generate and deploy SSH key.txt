@@ -1,0 +1,15 @@
+Generate SSH key
+command in Git Bash: ssh-keygen
+Then copy code from: C:\Users\name\.ssh then open id_rsa file and copy
+
+Deploy ssh key
+1. open github
+2. click on profile pic
+3. click on settings
+4. clisk on: SSH and GPG keys
+5. click on: new SSH key
+6. write title: whatever name you can choose
+7. key: paste ssh key here
+8. click on: Add SSH key
+
+After all the process all the problems will be solve
