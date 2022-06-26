@@ -1,0 +1,13 @@
+Problem
+“.git/index.lock': File exists. Another git process seems to be running in this repository, e.g. an editor opened by 'git commit'.”
+Solve
+command: rm -f .git/index.lock
+
+Problem
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+Solve
+command: git remore add origin sshlinkHere
+2nd command: git push origin master --force
