@@ -13,3 +13,10 @@ Deploy ssh key
 8. click on: Add SSH key
 
 After all the process all the problems will be solve
+
+
+
+
+Problem
+“.git/index.lock': File exists. Another git process seems to be running in this repository, e.g. an editor opened by 'git commit'.”
+Solve: rm -f .git/index.lock
